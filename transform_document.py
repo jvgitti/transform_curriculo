@@ -2,7 +2,7 @@ import openai
 import json
 from docx import Document
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
