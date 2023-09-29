@@ -1,8 +1,10 @@
 import openai
 import json
 from docx import Document
+import os
 
-openai.api_key = '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'
+
+openai.api_key = os.environ['OPENAI_KEY']
 
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
